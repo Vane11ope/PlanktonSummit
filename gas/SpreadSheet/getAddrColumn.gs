@@ -1,4 +1,4 @@
-function getAddrColumn(string) {
+function getColumn(string) {
 	var mySheet = SpreadsheetApp.getActiveSheet();
 	var lastCol = mySheet.getLastColumn();
 	var i;
